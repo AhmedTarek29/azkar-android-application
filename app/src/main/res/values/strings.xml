@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">دعـــــــاء</string>
+    <string name="button2">أذكار المساء</string>
+    <string name="button1">أذكار الصباح</string>
+    <string name="button3">أدعية و أذكار</string>
+    <string name="button_3">الأدعية</string>
+    <string name="TextView2">"بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم قُلْ هُوَ ٱللَّهُ أَحَدٌ، ٱللَّهُ ٱلصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ.  من قالها حين يصبح وحين يمسى كفته من كل شىء (الإخلاص والمعوذتين). "</string>
+    <string name="button4">دعاء بعد الصلاة</string>
+    <string name="button6">ادعية متنوعة</string>
+    <string name="button5">دعاء يومي</string>
+</resources>

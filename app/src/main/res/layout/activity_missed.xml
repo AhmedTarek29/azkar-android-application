@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".missed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="745dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="عند تأخر المصلي عن بدء الصلاة، فإن ما يدركه من الصلاة مع الإمام هي أول صلاته والركعات التي يصليها بعد مفارقته للإمام هي آخر صلاته، وعليه، فإذا أدركَ الإمام في الركعة الثانية، فإنه يقوم بعد مفارقته إلى الركعة الثالثة بالنسبة له، ولا يجلس إلا في الركعة الأخيرة، وجلوسه مع الإمام في التشهد الأخير يكفيه، عن التشهد الأوسط، وإذا فاتته ثلاث ركعات في الصلاة الرباعية، فإنه يجلس للتشهد ثلاث مرات، وهكذا في جميع الصلوات يجعل ما أدركه أول صلاته، وما يصليه بعد مفارقة للإمام هو آخر صلاته، هذا هو الراجح"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="When the worshiper delays the start of the prayer, what he catches up with from the prayer with the imam is his first prayer, and the rak’ahs that he prays after leaving the imam is his last prayer, and accordingly, if he catches up with the imam in the second rak’ah, then he gets up after leaving him to the third rak’ah for him, and he only sits in the second rak’ah. The last rak’ah, and his sitting with the imam in the last tashahhud is sufficient for him, for the middle tashahhud, and if he misses three rak’ahs in the four-rak’ah prayer, he sits for the tashahhud three times, and so on in all prayers he makes what he catches up the first of his prayers, and what he prays after leaving the imam is the last of his prayers, this is it most correct"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="كيفية قضاء الركعة الفائتة من الصلاة الرباعية"
+                android:textColor="@color/white"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="How to make up for the missed rak'ah of the quadruple prayer"
+                android:textColor="@color/white"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="عندما تفوت المسلم ركعة رباعية كالظهر والعصر والعشاء، وصلى مع الإمام باقي الركعات الثلاث وسلم الإمام من الركعة الأخيرة الرابعة، فيقوم هو ويصلي ركعة واحدة فقط مكملة للصلوات، يقرأ فيها سورة الفاتحة فقط؛ لأن ما أدركه هو أول الصلاة، وما يقضيه هو آخرها، فعندما يُسلم الإمام، يقوم فيقرأ الفاتحة ثم يركع ثم يرفع ثم يسجد سجدتين، ثم يقرأ التحيات بكمالها ثم يسلم، هذا الواجب عليه، أما عن جلوسه مع الإمام وقراءة التحيات فذلك ليس إجباريًا إنما يجلس للمتابعة، ولا يجب فيها قراءة التحيات، لكن في حال قرأها وصلى على الرسول صلى الله عليه وسلم، لا خلاف في ذلك ولا بأس عليه، أما التحيات الواجبة عليه فإنما تكون بعد أن يتم الركعة الفائتة، فإذا أتمها قرأ التحيات وصلى على الرسول صلى الله عليه وسلم ودعا ثم يسلم، هذا هو الواجب عليه"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="When a Muslim misses a four-rak’ah, such as the noon, afternoon, and evening prayers, and he prays with the imam the rest of the three rak’ahs, and the imam delivers from the fourth last rak’ah, then he gets up and prays only one rak’ah that complements the prayers, in which only Surah Al-Fatihah is recited; Because what he catches up with is the beginning of the prayer, and what he makes up is the last of it. When the imam says the salutations, he gets up and recites Al-Fatihah, then kneels, then rises, then prostrates two prostrations, then recites the greetings in their entirety and then gives the salutations. To follow up, and it is not obligatory to read the greetings, but if he reads it and prays for the Messenger, may God’s prayers and peace be upon him, there is no dispute about that and there is nothing wrong with him. He greeted and supplicated and then delivered, this is what he must do"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="كيفية قضاء الركعات الفائتة من صلاة المغرب"
+                android:textColor="@color/white"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="How to spend the missed rak'ahs of Maghrib prayer"
+                android:textColor="@color/white"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="عند تأخر المصلي عن صلاة المغرب يوجد له أحكام يجب عليه الالتزام بها لقضاء الركعات التي فاتته فمن أدرك الإمامَ قبل أن ينهي الركوع في الركعة النهائية من صلاة المغرب فقد أدرك الركعة الأولى من صلاته هو، فيصلي الركعة مع الإمام، وتعد له ركعة أولى، ويتبقى عليه ركعتان، وفي حال سلم الإمام قام المصلي وأتى بركعة وجلس للتشهد الأوسط، وهكذا يكون قد صلى الركعة الثانية، ثم يقوم ويصلي الركعة الثالثة، ويجلس للتشهد، ويسلم، والله أعلم"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="When a worshiper is late for the Maghrib prayer, there are provisions for him that he must abide by in order to make up for the rak’ahs that he missed. Whoever catches up with the imam before he finishes bowing in the final rak’ah of the Maghrib prayer, then he catches up with the first rak’ah of his own prayer. Two rak’ahs, and when the imam says the salaam, the worshiper stands up and performs a rak’ah and sits for the middle tashahhud, and thus he has prayed the second rak’ah, then he gets up and prays the third rak’ah, sits for the tashahhud, and gives the salutation, and God knows best"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

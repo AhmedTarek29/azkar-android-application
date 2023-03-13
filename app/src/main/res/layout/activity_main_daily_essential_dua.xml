@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Daily_essential_dua">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="745dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللَّهمَّ آتِنا في الدُّنيا حَسنةً وفي الآخرةِ حَسنةً وقِنا عذابَ النَّارِ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="O Allah, give us good in this world and good in the Hereafter, and save us from the punishment of the Fire."
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللَّهُمَّ إنِّي أعُوذُ بكَ مِنَ الهَمِّ والحَزَنِ، والعَجْزِ والكَسَلِ، والبُخْلِ، والجُبْنِ، وضَلَعِ الدَّيْنِ، وغَلَبَةِ الرِّجالِ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="O Allah, I seek refuge in You from anxiety and sorrow, incapacity and laziness, miserliness, cowardice, the burden of debt, and from being overpowered by men."
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وبِحَمْدِكَ اللَّهُمَّ اغْفِرْ لي"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="Glory and praise be to God, our Lord, God forgive me"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="يا مُقلِّبَ القلوبِ ثبِّت قلبي على دينِكَ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="Heart mold set my heart on your religion"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللهمَّ إنك عفوٌ تحبُّ العفوَ فاعفُ عني"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="Oh God, you are the pardoner, you love to pardon, so pardon me"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللَّهُمَّ اغْفِرْ لي ذَنْبِي كُلَّهُ دِقَّهُ، وجِلَّهُ، وأَوَّلَهُ وآخِرَهُ وعَلانِيَتَهُ وسِرَّهُ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="O Allah, forgive me all my sins, the minute and the majestic, the beginning and the end, the open and the secret."
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللَّهُمَّ أَصْلِحْ لي دِينِي الذي هو عِصْمَةُ أَمْرِي، وَأَصْلِحْ لي دُنْيَايَ الَّتي فِيهَا معاشِي، وَأَصْلِحْ لي آخِرَتي الَّتي فِيهَا معادِي، وَاجْعَلِ الحَيَاةَ زِيَادَةً لي في كُلِّ خَيْرٍ، وَاجْعَلِ المَوْتَ رَاحَةً لي مِن كُلِّ شَرٍّ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="Oh God, reconcile me for my debt, which is the infallibility of my command, and I reform my world in which my pension is, and I fix my last for me in which I am hostile to me, and I will make me happy, and make my life,ّ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="اللَّهُمَّ اغْفِرْ لي خَطِيئَتي وَجَهْلِي، وإسْرَافِي في أَمْرِي، وَما أَنْتَ أَعْلَمُ به مِنِّي، اللَّهُمَّ اغْفِرْ لي جِدِّي وَهَزْلِي، وَخَطَئِي وَعَمْدِي، وَكُلُّ ذلكَ عِندِي، اللَّهُمَّ اغْفِرْ لي ما قَدَّمْتُ وَما أَخَّرْتُ، وَما أَسْرَرْتُ وَما أَعْلَنْتُ، وَما أَنْتَ أَعْلَمُ به مِنِّي، أَنْتَ المُقَدِّمُ وَأَنْتَ المُؤَخِّرُ، وَأَنْتَ علَى كُلِّ شيءٍ قَدِيرٌ"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_for_linear"
+            android:text="O Allah, forgive my sin and my ignorance,my extravagance in my affairs,what You know better than me, O Allah, forgive my seriousness and my jest,O Allah, forgive me for what I have done and what I have delayed, and what I have hidden and what I have declared, and what You know better than I do."
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

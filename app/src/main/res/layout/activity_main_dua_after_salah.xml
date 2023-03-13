@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Dua_after_salah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="745dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideOverlay">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ ذَا الجَلَالِ وَالإِكْرَامِ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="O Allah, You are the Peace and from You is the Peace, Blessed be the Majestic and the Honourable."
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللَّهُمَّ إنِّي أعُوذُ بكَ مِنَ البُخْلِ، وأَعُوذُ بكَ مِنَ الجُبْنِ، وأَعُوذُ بكَ أنْ أُرَدَّ إلى أرْذَلِ العُمُرِ، وأَعُوذُ بكَ مِن فِتْنَةِ الدُّنْيَا -يَعْنِي فِتْنَةَ الدَّجَّالِ- وأَعُوذُ بكَ مِن عَذَابِ القَبْرِ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="O Allah, I seek refuge in You from miserliness, and I seek refuge in You from cowardice, and I seek refuge in You from being taken back to the most deplorable age, and I seek refuge in You from the trials of this world - meaning the trial of the Dajjal - and I seek refuge in You"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللَّهمَّ أعنِّي على ذِكْرِكَ، وشُكْرِكَ، وحُسنِ عبادتِكَ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="Oh God, help me to mention you, thank you, and well worshipping you"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="alllh la 'iilah 'iilaa hu alhayu alqayuwm la takhudhuh sinat wala nawm lah ma fi alsamawat wama fi al'ard man dha aladhi yashfae eindah 'iilaa bi'iidhnih yaelam ma bayn 'aydihim wama khalfahum wala yuhitun bishay' min eilmih 'iilaa bima sha' wasie kursiuh alsamawat wal'ard wala yawuwduh hifzuhuma wahu alealiu aleazim"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="رَبِّ قِنِي عَذَابَكَ يَومَ تَبْعَثُ، أَوْ تَجْمَعُ، عِبَادَكَ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="O Allah, protect me from Your punishment on the day You resurrect or gather Your servants."
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللَّهمَّ اغفِر لي ما قدَّمتُ وما أخَّرتُ وما أسرَرتُ وما أعلنتُ، وما أسرَفتُ وما أنتَ أعلمُ بِهِ منِّي، أنتَ المقدِّمُ وأنتَ المؤخِّرُ، لا إلَهَ إلَّا أنتَ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="O Allah, forgive me for what I have done before and what I have delayed, what I have hidden and what I have announced, and what I have been extravagant."
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="اللَّهمَّ إنِّي أسألُكَ عِلمًا نافعًا ورزقًا طيِّبًا وعملًا متقبَّلًا"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="O Allah, I ask You for beneficial knowledge, good sustenance, and acceptable deeds."
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="لا إلَه إلَّا اللَّهُ وحدَه لا شريكَ لَه لَه الملكُ ولَه الحمدُ وَهوَ علَى كلِّ شيءٍ قديرٌ لا إلَه إلَّا اللَّهُ ولا نعبدُ إلَّا إيَّاهُ لَه النِّعمةُ ولَه الفضلُ ولَه الثَّناءُ الحسَنُ لا إلَه إلَّا اللَّهُ مخلصينَ لَه الدِّينَ ولَو كرِه الكافرونَ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="There is no god but God alone, He has no partner, He has the sovereignty, and He is the praise, and He is capable of everything"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="عَنْ رَسولِ اللهِ صَلَّى اللَّهُ عليه وسلَّمَ مَن سَبَّحَ اللَّهَ في دُبُرِ كُلِّ صَلاةٍ ثَلاثًا وثَلاثِينَ، وحَمِدَ اللَّهَ ثَلاثًا وثَلاثِينَ، وكَبَّرَ اللَّهَ ثَلاثًا وثَلاثِينَ، فَتْلِكَ تِسْعَةٌ وتِسْعُونَ، وقالَ: تَمامَ المِئَةِ: لا إلَهَ إلَّا اللَّهُ وحْدَهُ لا شَرِيكَ له، له المُلْكُ وله الحَمْدُ وهو علَى كُلِّ شيءٍ قَدِيرٌ غُفِرَتْ خَطاياهُ وإنْ كانَتْ مِثْلَ زَبَدِ البَحْرِ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_for_linear"
+                android:text="On the authority of the Messenger of God, may God’s prayers and peace be upon him, who glorified God after every prayer thirty-three times,And praise be to God thirty-three times, and Allah is the Greatest thirty-three times, for that is ninety-nine.There is no god but God alone, He has no partner, His is the kingdom and His is the praise, and He is powerful over all things. His sins are forgiven, even if they are like the foam of the sea.ِ"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
